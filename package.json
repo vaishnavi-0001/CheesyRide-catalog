@@ -24,6 +24,7 @@
         "@types/express-fileupload": "^1.5.1",
         "@types/http-errors": "^2.0.1",
         "@types/jest": "^29.5.4",
+        "@types/multer": "^1.4.13",
         "@types/node": "^20.5.9",
         "@types/supertest": "^2.0.12",
         "@types/uuid": "^9.0.8",
@@ -49,6 +50,7 @@
         ]
     },
     "dependencies": {
+        "cloudinary": "^2.7.0",
         "config": "^4.0.0",
         "cookie-parser": "^1.4.7",
         "cors": "^2.8.5",
@@ -61,6 +63,8 @@
         "js-yaml": "^4.1.0",
         "jwks-rsa": "^3.2.0",
         "mongoose": "^8.16.0",
+        "multer": "^2.0.1",
+        "multer-storage-cloudinary": "^4.0.0",
         "uuid": "^9.0.1",
         "winston": "^3.10.0"
     }
